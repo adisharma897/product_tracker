@@ -11,7 +11,7 @@ SLACK_TOKEN = os.environ['SLACK_TOKEN']
 SCHEDULE_INTERVAL = int(os.environ['SCHEDULE_INTERVAL'])
 ASINS = os.environ['ASINS']
 
-with open('dorm_data.json', 'w') as file:
+with open('product_data.json', 'w') as file:
     json.dump([], file)
 
 sched = BlockingScheduler()
