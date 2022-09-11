@@ -29,7 +29,7 @@ def amazon_extractor(asin):
     title = get_title(soup)
     price = get_price(soup)
     
-    return title, price, r.status_code
+    return title, price, webpage.status_code
 
 def get_title(soup):
     try:
