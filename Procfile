@@ -1,2 +1,1 @@
-web: python amazon_product_price_tracker.py
-worker: python amazon_product_price_tracker.py
+clock: python amazon_product_price_tracker.py
