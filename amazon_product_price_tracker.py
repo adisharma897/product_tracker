@@ -64,6 +64,8 @@ def format_data(raw_data):
     product_blocks = []
     
     for key in raw_data.keys():
+        url = f'https://www.amazon.in/dp/{key}/'
+        
         product_data = [{
             "type": "section",
             "text": {
